@@ -1,0 +1,132 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+*{
+    font-family: "IBM Plex Sans";
+}
+
+.sb ul 
+{   
+    padding-left: 10px;
+    
+    list-style: none;
+    border-bottom: 0.5px solid grey ;
+   
+    
+}
+
+.sb {
+    /*
+    position: -webkit-sticky; 
+    position: sticky;
+   
+    z-index: 5;
+    top: 0; 
+    */
+    margin-left: 0.5cm;
+    width: 200 px;
+  }
+ul li {
+    
+    margin-bottom: 0.5cm ;
+    padding-top: 0.02px;
+
+}
+a {
+    text-decoration: none; 
+    color: black;
+     
+}
+.topbar{
+    height: 3cm;
+    
+}
+.srchbar {
+    margin-left: 7cm;
+    margin-top: 0.4cm;
+    
+
+}
+.srchbar form input {
+   
+    width: 700px;
+    height: 50px;
+    border-radius: 30px 0px 0px 30px;
+    border: 0.1px solid lightgray;
+    font-size: large;
+    padding-left: 15px;
+
+}
+
+.srchbar form input::placeholder{
+    font-size: large;
+}
+.srchbar form{
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+.middle{
+    margin-right: 400px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    width: 1000px;
+}
+.video video{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.vid-title{
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.vid-info{
+    display: flex;
+    justify-content: space-between;
+}
+.vid-channel{
+    font-weight: 600;
+
+}
+.video-card{
+    display: flex;
+    width: 350px;
+    padding: 30px;
+}
+.video-card img{
+    width: 100px;
+}
+.sugg-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.sugg-info .title{
+    font-weight: bold;
+}
+.sugg-info .channel{
+    font-weight: 300;
+    color: grey;
+    font-size: 12px;
+}
+
+.video-card:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.suggestions{
+    margin-left: 2cm;
+}

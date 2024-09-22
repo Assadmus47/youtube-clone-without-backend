@@ -1,0 +1,152 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    font-family: "IBM Plex Sans";
+    ;
+}
+.searchbar input{
+    margin-left: 2cm;
+    height: 50px;
+    width: 700px;
+    
+
+}
+.title {
+    margin-left: 1cm
+}
+.sb{
+    width: 12%;
+    
+    
+}
+.sb ul 
+{   
+    padding-left: 10px;
+    
+    list-style: none;
+    border-bottom: 0.5px solid grey ;
+   
+    
+}
+.ul1{
+    padding-top: 1.5cm; 
+}
+a {
+    text-decoration: none; 
+    color: black;
+     
+}
+ul li {
+    
+    margin-bottom: 0.5cm ;
+
+    
+}
+.searchbar ul {
+    list-style: none;
+    margin-left: 0;
+}
+.nope{
+    display: flex;
+    justify-content:stretch ; 
+    padding-left: .5;
+    padding-right: .5;
+    
+}
+.ow{
+    display: flex;
+     
+}
+.srch{
+    margin-left: 5cm;   
+}
+.srchic{
+    margin-left: 0.5cm; 
+}
+.micro button{
+    margin-left: 1.5cm; 
+    border-radius: 25px;
+    
+}
+.button{
+    margin-left: 0;  
+}
+.like{
+   margin-left: 18cm;
+}
+.dislike{
+    margin-left: 0.5cm;
+} 
+.share {
+    margin-left: 0.5cm; 
+}
+.point{
+    margin-left: 0.5cm;
+}
+.imga{
+    margin-left: 0
+}
+.ziyada{
+   
+    width: 11%;
+    
+}
+.videos{
+    
+    margin-top: 0cm;
+    padding-left: 1.2cm;
+    width:26%;
+}
+.searchbar{
+    margin-left:1.5cm;
+}
+.video1{
+    display: flex;
+    margin-top: 2.2cm;
+}
+.chainename{
+    margin-top: 0.4cm;
+    margin-left: 0.08cm;
+}
+.vues{
+    margin-top: 0cm;
+}
+.video2{
+    display: flex;
+    margin-top: 1cm;
+}
+.video3{
+    display: flex;
+    margin-top: 1cm;
+}
+.video4{
+    display: flex;
+    margin-top: 1cm;
+}
+.video5{
+    display: flex;
+    margin-top: 1cm;
+}
+.video6{
+    display: flex;
+    margin-top: 1cm;
+}
+.bro{
+   padding-left: 0;
+}
+.btn{
+    display: flex;
+    padding-left: 9cm;
+}
+
+.notifa{
+    margin-left:0.6cm ; 
+}  
+.ana{
+    margin-left:0.5cm ;  
+}
+.srchbar::placeholder{
+    font-size: 23px;
+    padding-left: 0.4cm;
+   
+}
